@@ -1,0 +1,18 @@
+# START of SERV3 Settings
+#destination data provider Connection details
+SERV3_jco.client.ashost=anvm100.sapcoe.sap.com
+SERV3_jco.client.sysnr=00
+SERV3_jco.client.client=300
+SERV3_jco.client.user=nxl_comm
+SERV3_jco.client.passwd=sab8034feaa025a64b4b33a473f519a1f
+SERV3_jco.client.lang=en
+#please note jco.destination.pool_capacity <=jco.destination.peak_limit
+#comment below two lines if connection  pool is not required
+SERV3_jco.destination.peak_limit=3
+SERV3_jco.destination.pool_capacity=1
+#server data provider Connection details
+SERV3_jco.server.gwhost=anvm100.sapcoe.sap.com
+SERV3_jco.server.gwserv=sapgw00
+SERV3_jco.server.progid=NXL_CONNECT_TO_UAP
+SERV3_jco.server.connection_count=03
+# END of SERV3 Settings
